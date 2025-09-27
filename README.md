@@ -67,10 +67,10 @@ Content-Type: application/json
   "password": "yourpassword"
 }
 ```
-![alt text](image-1.png)
+![alt text](.github/images/image-1.png)
 - Check in database
-![alt text](image-2.png)
-![alt text](image-3.png)
+![alt text](.github/images/image-2.png)
+![alt text](.github/images/image-3.png)
 #### Login
 ```
 POST /auth/login
@@ -81,22 +81,22 @@ Content-Type: application/json
   "password": "yourpassword"
 }
 ```
-![alt text](image-4.png)
+![alt text](.github/images/image-4.png)
 - Check in database
-![alt text](image-5.png)
+![alt text](.github/images/image-5.png)
 #### Logout
 ```
 GET /auth/logout
 ```
-![alt text](image-7.png)
+![alt text](.github/images/image-7.png)
 - Check in database
-![alt text](image-8.png)
+![alt text](.github/images/image-8.png)
 #### Get User Profile (Protected Route)
 ```
 GET /auth/profile
 ```
 Requires an active session (must be logged in)
-![alt text](image-6.png)
+![alt text](.github/images/image-6.png)
 
 ## Session Configuration
 
